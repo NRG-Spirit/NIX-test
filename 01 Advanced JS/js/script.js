@@ -9,7 +9,7 @@ function solve(inputData) {
 }
 
 function handleSolve() {
-  const inputData = document.querySelector('.test-input').value.toString();
+  const inputData = document.querySelector('.test-input').value;
   let outputData = solve(inputData);
   document.querySelector('.test-input').value = "";
   document.querySelector('.test-out').innerHTML = "Input: " + inputData + "<br>" + "Out: " + outputData;
