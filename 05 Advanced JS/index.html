@@ -1,0 +1,90 @@
+<!--Сообщает браузеру как обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа, указываем язык содержимого-->
+<html lang="en">
+<!--Заголовок страницы, контейнер для других важных данных (Не отображается)-->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Task №5</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/nullstyle.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Подключаем шрифты -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&display=swap"
+		rel="stylesheet">
+	<!-- Кодировка страницы -->
+	<!-- С появлением HTML5 можно использовать  -->
+	<meta charset="UTF-8">
+	<!-- Настройки адаптивности страницы  -->
+	<!-- Адаптивность  -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- Отключает формирование ссылки у номера телефона на iOS -->
+	<meta name="format-detection" content="telephone=no">
+
+	<!-- Краткое описание страницы  -->
+	<meta name="description" content="">
+	<!-- Ключевые слова страницы  -->
+	<meta name="keywords" content="">
+
+	<!-- Управление доступом поисковых роботов к странице -->
+	<!-- Запрет индексации страницы полностью -->
+	<meta name="robots" content="none">
+
+	<!-- Автор страницы -->
+	<meta name="Author" content="">
+	<!-- Авторские права -->
+	<meta name="Copyright" content="">
+	<!-- Адрес автора -->
+	<meta name="Address" content="">
+
+	<!-- локализация сайта, для русскоязычного сайта ru_RU -->
+	<meta property="og:locale" content="ru_RU">
+	<!-- тип контента, по умолчанию используется article -->
+	<meta property="og:type" content="article">
+	<!-- заголовок страницы, который будет выводится в записи социальной сети -->
+	<meta property="og:title" content="NIX education JS advanced">
+	<!-- описание страницы -->
+	<meta property="og:description" content="">
+	<!-- название сайта -->
+	<meta property="og:site_name" content="">
+
+	<!-- Тип карты, по умолчанию используется summary -->
+	<meta name="twitter:card" content="">
+	<!-- Имя/логин автора -->
+	<meta name="twitter:site" content="">
+	<!-- Название страницы -->
+	<meta name="twitter:title" content="">
+	<!-- Описание страницы -->
+	<meta name="twitter:description" content="">
+	<!-- Cсылка на изображение -->
+	<meta name="twitter:image" content="">
+</head>
+<!--Отображаемое тело страницы-->
+
+<body>
+	<div class="test">
+		<div class="test__wrapper">
+			<h1>Практика Advanced JS task №5</h1>
+			<div class="test__task">
+				Необхідно написати функцію, яка приймає рядок як аргумент і виводить кількість голосних у цьому рядку. Використовувати алфавіту російської мови. Необхідно написати щонайменше 3 реалізації функції.
+			</div>
+			<div class="test__example">
+				<p>Приклади коду:</p>
+				<p>findVowels('Привіт') => 2</p>
+				<p>findVowels('Абракадабра') => 5</p>
+			</div>
+			<div class="test__solution">
+				<input type="text" class="test-input"  placeholder="Введіть рядок українською або російською">
+				<button class="solve-btn">Solve</button>
+				<div class="test-out"></div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
