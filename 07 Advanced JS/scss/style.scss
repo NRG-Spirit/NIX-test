@@ -1,0 +1,55 @@
+.test {
+   max-width: 1920px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1rem;
+   line-height: 1.5;
+   h1{
+      text-align: center;
+      font-size: 2rem;
+      line-height: 2;
+      font-weight: 700;
+   }
+   input{
+      border: 1px solid black;
+   }
+   &__wrapper{
+      max-width: 1000px;
+      margin: 2rem auto 0;
+   }
+   &__task {
+      margin: 1rem auto 0;
+      font-weight: 500;
+      text-align: center;
+   }
+   &__example {
+      margin: 1rem auto 0;
+      width: max-content;
+      font-weight: 300;
+   }
+   &__solution {
+      margin: 1rem auto 0;
+      display: flex;
+      flex-direction: column;
+      width: max-content;
+      justify-content: center;
+      align-items: center;
+   }
+}
+.test-input{
+   margin: 1rem auto 0;
+   width: 300px;
+   height: 30px;
+}
+.solve-btn{
+   height: 30px;
+   width: 200px;
+   margin: 1rem 0 0 0;
+   background: rgb(123, 0, 123);
+   font-weight: 700;
+   color: rgb(255, 255, 255);
+   text-transform: uppercase;
+}
+.test-out {
+   width: max-content;
+   margin: 1rem auto 0;
+}
